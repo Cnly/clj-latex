@@ -29,7 +29,7 @@
                             (next ijs)))
                    tab))
            tab (m/emap-indexed (fn [[i j] elem]
-                                 (format "\\rn{%d%d}{%s}" i j elem)) tab) ]
+                                 (format "\\rn{%d%d}{%s}" i j elem)) tab)]
        (list
          (l/matrix 'matrix tab)
          ('tikzpicture [['overlay, "remember picture"]]
