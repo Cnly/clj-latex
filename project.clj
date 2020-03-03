@@ -1,4 +1,4 @@
-(defproject clj-latex "0.1.0"
+(defproject clj-latex "0.1.1"
   :description "A library for representing LaTeX code in Clojure"
   :url "https://github.com/cnly/clj-latex"
   :license {:name "The MIT License"}
